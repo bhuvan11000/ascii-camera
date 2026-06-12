@@ -8,7 +8,7 @@ A fullscreen terminal tool that previews your camera feed as real-time ASCII art
 - **Fullscreen terminal UI** — fills your entire terminal with ASCII art
 - **Brightness-mapped characters** — uses a carefully ordered character ramp for accurate luminance
 - **Adaptive sizing** — automatically scales to fit any terminal size
-- **Color support** — optional ANSI color mode for terminals that support it
+- **24-bit truecolor** — full RGB color mode for modern terminals (kitty, alacritty, wezterm, iTerm2, GNOME Terminal, etc.)
 - **Keyboard controls** — toggle color, invert, adjust contrast, and more on the fly
 
 ## Requirements
@@ -48,6 +48,3 @@ python main.py
 3. Converts pixel brightness to ASCII characters
 4. Renders the full frame to the terminal using curses
 
-## License
-
-MIT
