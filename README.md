@@ -25,8 +25,8 @@ Clone the repository and install the dependencies into a virtual environment:
 
 ```bash
 git clone <repo-url> && cd ascii-camera
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
